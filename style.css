@@ -1,0 +1,42 @@
+#animacja1{
+    animation: wyjscie;
+    animation-duration: 2s;
+}
+@keyframes wyjscie{
+   from{
+    opacity: 0;
+    transform: translateY(-100px);
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+   } 
+}
+#animacja2{
+    animation: wyjscie;
+    animation-duration: 2s;
+}
+@keyframes wyjscie{
+   from{
+    opacity: 0;
+    transform: translateY(-100px);
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+   } 
+}
+#animacja3{
+    animation: wyjscie;
+    animation-duration: 2s;
+}
+@keyframes wyjscie{
+   from{
+    opacity: 0;
+    transform: translateY(-100px);
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+   } 
+}
