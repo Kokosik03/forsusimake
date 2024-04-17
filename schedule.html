@@ -8,15 +8,18 @@
 <body>
   <div style="width: 391px; height: 844px;  left: 0px; top: 0px; position: absolute; background: #F27693">
     <div style="width: 391px; height: 150px; left: 0px; top: 0px; position: absolute; background: #F7EBEE">
-      <img src="https://i.imgur.com/cx9vICf.png" style="width: 90px; height: 110px; left: 20px; top: 20px; position: absolute; border-radius: 34px"/>
+      <button id="button" style="background-color: transparent; border: none;"> <img src="https://i.imgur.com/cx9vICf.png" style="width: 90px; height: 110px; left: 20px; top: 20px; position: absolute; border-radius: 34px"/></button>
       <div style="width: 150px; height: 50px; left: 150px; top: 60px; position: absolute; color: #131212; font-size: 25px; font-family: Roboto; font-weight: 500; line-height: 36px; word-wrap: break-word">SCHEDULE</div>
     </div>
-    <div style="width: 100px; height: 80px; left: 20px; top: 730px; position: absolute; text-align: center; color: black; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">© 2023 All Rights Reserved</div>
-    <div style="width: 100px; height: 80px; left: 145px; top: 730px; position: absolute; text-align: center; color: black; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">Privacy Policy</div>
-    <div style="width: 100px; height: 80px; left: 270px; top: 730px; position: absolute; text-align: center; color: black; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 28px; word-wrap: break-word">Terms of Service</div>
 
    <a href=schedule2.html><button id="przycisk" type="button" style="width: 300px; height: 100px; left: 45px; top: 380px; position: absolute; background: #F7EBEE; border-radius: 60px"></button>
     <div style="width: 300px; height: 100px; left: 45px; top: 380px; position: absolute; text-align: center; color: #131212; font-size: 32px; font-family: Roboto; font-weight: 400; line-height: 100px; word-wrap: break-word">START YOUR DAY!</div></a> 
   </div>
+  <script>
+    const button = document.getElementById("button");
+  button.addEventListener("click", function() {
+    window.location.href = "schedule.html";
+  });
+  </script>
 </body>
 </html>
